@@ -1,0 +1,32 @@
+{
+  "standard_raid_incubate_duration": 60,
+  "standard_raid_hatched_duration": 45,
+  "exclusive_raid_incubate_duration": 20160,
+  "exclusive_raid_hatched_duration": 45,
+  "start_clear_time": 10,
+  "deletion_grace_time": 5,
+  "deletion_warning_time": 10,
+  "raid_complete_timeout": 5,
+  "screenshot_message_offset_time": 45,
+  "cleanup_interval": 60000,
+  "message_cleanup_delay_success": 5000,
+  "message_cleanup_delay_error": 30000,
+  "features": {
+    "ex_gym_channel": true,
+    "notifications": true,
+    "roles": true
+  },
+  "channels": {
+    "bot_lab": "the-bot-lab",
+    "mod_bot_lab": "mod-bot-only",
+    "unown": "unown-sightings",
+    "ex_gym_raids": "potential-ex-gym-raids"
+  },
+  "help_groups": [
+    "basic-raid",
+    "raid-crud",
+    "roles",
+    "notifications",
+    "util"
+  ]
+}
